@@ -21,6 +21,15 @@
           "--dsn",
           "mysql://root:admin123@localhost:3306/example_db"
         ]
-      }
+      },
+      "Framelink Figma MCP": {
+      "command": "npx",
+      "args": [
+        "-y", 
+        "figma-developer-mcp",
+        "--figma-api-key=<YOUR FIGMA API KEY HERE>", 
+        "--stdio"
+      ]
+    }
     }
   }
